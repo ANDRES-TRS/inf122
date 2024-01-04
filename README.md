@@ -1,0 +1,3 @@
+# inf122
+Nombre: EDDY ANDRES LIMACHI CRISPIN
+Materia: Inf-122
