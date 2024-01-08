@@ -1,0 +1,21 @@
+body {
+    background-color: #fed8aa;
+}
+h1 {
+    color: #0c0e0e;
+    text-align: center;
+    
+}
+h2 {
+    color: #0b0c0c;
+}
+.registro {
+    border-radius: 8px;
+    color: #fff200;
+    text-align: #fff4f6;
+}
+.IniciarSesion {
+    border-radius: 8px;
+    color: rgb(203, 248, 6), 255, 233);
+    text-align: #fff4f6;
+}

@@ -1,0 +1,11 @@
+/* Estilos CSS para cambiar el color del botón */
+button {
+    background-color: rgb(39, 202, 39);
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
