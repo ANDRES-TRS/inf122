@@ -1,0 +1,14 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --purple: #6F2CFF;
+    --light:-purple: #EFE9F9;
+    --red-heart: #A50954;
+    --blue-heart: #ACD9B2;
+    --sm: 14px;
+    --md: 20px;
+    --lg: 60px;
+}
+body {
+    font-family: 'Nunito';
+}
