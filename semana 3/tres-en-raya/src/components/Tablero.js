@@ -1,21 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../style/Tablero.css';
 import Cuadro from './Cuadro';
+
 function Tablero() {
+    const [valor, setValor] = useState("X");
+
+    const click = () => {
+        if (valor === "X") {
+            setValor("0");
+        } else {
+            setValor("X");
+        }
+    };
 
     return (
         <div className="tablero">
-            <Cuadro valor={0} />
-            <Cuadro valor={1} />
-            <Cuadro valor={2} />
-            <Cuadro valor={3} />
-            <Cuadro valor={4} />
-            <Cuadro valor={5} />
-            <Cuadro valor={6} />
-            <Cuadro valor={7} />
-            <Cuadro valor={8} />
+            <Cuadro valor={valor} funcion={click} />
+            <Cuadro valor={valor} funcion={click} />
+            <Cuadro valor={valor} funcion={click} />
+            <Cuadro valor={valor} funcion={click} />
+            <Cuadro valor={valor} funcion={click} />
+            <Cuadro valor={valor} funcion={click} />
+            <Cuadro valor={valor} funcion={click} />
+            <Cuadro valor={valor} funcion={click} />
+            <Cuadro valor={valor} funcion={click} />
         </div>
-
     );
 }
 
